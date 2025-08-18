@@ -1,0 +1,6 @@
+.cart-grid { display:grid; grid-template-columns: 2fr 1fr; gap: 16px; }
+.cart-list { display:flex; flex-direction:column; gap: 12px; }
+.cart-item { display:grid; grid-template-columns: 80px 1fr auto; gap: 12px; align-items:center; border:1px solid var(--border); border-radius:16px; padding: 8px 12px; background:#0c1527; }
+.cart-item img { width:80px; height:80px; object-fit:cover; border-radius:10px; }
+.qty { display:flex; gap:8px; align-items:center; }
+.summary { position: sticky; top: 80px; }

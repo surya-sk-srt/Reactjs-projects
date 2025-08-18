@@ -1,0 +1,7 @@
+.product-card { display:flex; flex-direction:column; border-radius:16px; overflow:hidden; border:1px solid var(--border); background:#0c1527; }
+.product-card img { width:100%; height:200px; object-fit:cover; }
+.product-body { padding: 12px; display:flex; flex-direction:column; gap: 6px; }
+.product-title { font-weight:700; }
+.product-actions { display:flex; gap: 8px; align-items:center; }
+.wish { background:#1f2937; }
+.rating { color: var(--gold); font-size: 14px; }

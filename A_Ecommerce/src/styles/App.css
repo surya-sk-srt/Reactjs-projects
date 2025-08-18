@@ -1,0 +1,9 @@
+.app { display:flex; flex-direction:column; min-height:100vh; }
+main.container { flex:1; }
+.hero {
+  display:grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items:center;
+  background: linear-gradient(135deg, #0b1220, #111827);
+  border: 1px solid var(--border); border-radius: 20px; padding: 24px;
+}
+.hero h1 { margin: 0; font-size: 36px; }
+.hero p { color: var(--muted); }

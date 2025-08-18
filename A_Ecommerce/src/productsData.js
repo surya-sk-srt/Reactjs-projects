@@ -1,0 +1,12 @@
+const products = [
+  { id: 1, title: 'Aurora Headphones', price: 129.99, rating: 4.6, category: 'audio', image: 'https://images.unsplash.com/photo-1518441902113-cd1f5b69f9a3?q=80&w=1200&auto=format&fit=crop', description: 'Immersive over-ear headphones with active noise cancellation and 30-hour battery.' },
+  { id: 2, title: 'Orbit Smartwatch', price: 199.00, rating: 4.4, category: 'wearables', image: 'https://images.unsplash.com/photo-1511735111819-9a3f7709049c?q=80&w=1200&auto=format&fit=crop', description: 'Track health, receive notifications, and control music with a sleek AMOLED display.' },
+  { id: 3, title: 'Pixel Pro Camera', price: 599.00, rating: 4.8, category: 'cameras', image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1200&auto=format&fit=crop', description: 'Mirrorless camera with fast autofocus, 4K video, and interchangeable lenses.' },
+  { id: 4, title: 'Nimbus Keyboard', price: 89.50, rating: 4.3, category: 'accessories', image: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop', description: 'Low-profile mechanical keyboard with RGB and hot-swappable switches.' },
+  { id: 5, title: 'Lumen Desk Lamp', price: 59.99, rating: 4.2, category: 'home', image: 'https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?q=80&w=1200&auto=format&fit=crop', description: 'Adjustable LED lamp with ambient modes and USB-C charging port.' },
+  { id: 6, title: 'Comet Drone Mini', price: 249.99, rating: 4.5, category: 'drones', image: 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?q=80&w=1200&auto=format&fit=crop', description: 'Compact drone with 3-axis gimbal, GPS, and 28-minute flight time.' },
+  { id: 7, title: 'Pulse Bluetooth Speaker', price: 79.00, rating: 4.1, category: 'audio', image: 'https://images.unsplash.com/photo-1507878866276-a947ef722fee?q=80&w=1200&auto=format&fit=crop', description: 'Portable speaker with deep bass and IPX7 waterproof rating.' },
+  { id: 8, title: 'Zen Laptop Stand', price: 39.99, rating: 4.0, category: 'accessories', image: 'https://images.unsplash.com/photo-1537498425277-c283d32ef9db?q=80&w=1200&auto=format&fit=crop', description: 'Ergonomic aluminum stand for better posture and cooling.' }
+]
+
+export default products
