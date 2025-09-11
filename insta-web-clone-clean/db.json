@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@demo.com",
+      "password": "admin123",
+      "bio": "Hello, I build things.",
+      "avatar": "https://i.pravatar.cc/150?img=12"
+    },
+    {
+      "id": 2,
+      "username": "alice",
+      "email": "alice@demo.com",
+      "password": "alice123",
+      "bio": "Photographer",
+      "avatar": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": 3,
+      "username": "bob",
+      "email": "bob@demo.com",
+      "password": "bob123",
+      "bio": "Designer",
+      "avatar": "https://i.pravatar.cc/150?img=8"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 2,
+      "username": "alice",
+      "userAvatar": "https://i.pravatar.cc/40?img=5",
+      "image": "https://images.unsplash.com/photo-1504198266285-165c3b3b922b?q=80&w=1200&auto=format&fit=crop",
+      "caption": "Golden hour at the lake",
+      "likes": 24,
+      "createdAt": "2025-08-01T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "username": "bob",
+      "userAvatar": "https://i.pravatar.cc/40?img=8",
+      "image": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?q=80&w=1200&auto=format&fit=crop",
+      "caption": "Designing in the wild",
+      "likes": 12,
+      "createdAt": "2025-08-03T12:30:00Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "userId": 1,
+      "username": "admin",
+      "text": "Lovely shot!",
+      "createdAt": "2025-08-01T11:00:00Z"
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "userId": 3,
+      "username": "bob",
+      "text": "Amazing colors.",
+      "createdAt": "2025-08-01T11:05:00Z"
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "userId": 2,
+      "username": "alice",
+      "avatar": "https://i.pravatar.cc/80?img=5",
+      "seen": false
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "username": "bob",
+      "avatar": "https://i.pravatar.cc/80?img=8",
+      "seen": false
+    }
+  ],
+  "suggestions": [
+    {
+      "id": 1,
+      "username": "charlie",
+      "avatar": "https://i.pravatar.cc/80?img=3"
+    },
+    {
+      "id": 2,
+      "username": "dave",
+      "avatar": "https://i.pravatar.cc/80?img=4"
+    }
+  ]
+}
